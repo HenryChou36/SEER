@@ -1,0 +1,17 @@
+# Python 3.12.12; Linux; CUDA 12.8.
+# Maestro-EVC training uses its own environment and upstream requirements.
+--extra-index-url https://download.pytorch.org/whl/cu128
+
+torch==2.10.0+cu128
+torchaudio==2.10.0+cu128
+numpy==2.2.6
+scipy==1.17.0
+soundfile==0.13.1
+librosa==0.11.0
+joblib==1.5.3
+scikit-learn==1.8.0
+speechbrain==1.1.0
+funasr==1.4.0
+huggingface_hub==1.24.0
+transformers==5.5.3
+tokenizers==0.22.2
