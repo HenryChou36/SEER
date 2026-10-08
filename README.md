@@ -220,7 +220,7 @@ We thank the authors of the models and implementations used in this work:
 - [Maestro-EVC](https://github.com/truestar2001/MaestroEVC) provides reference-conditioned EVC and temporal emotion features. See [Yoon et al., ASRU 2025](https://doi.org/10.1109/ASRU65441.2025.11434672).
 - [emotion2vec](https://github.com/ddlBoJack/emotion2vec) provides Emotion2Vec+ Large for reference-bank construction, reward, and evaluation. See [Ma et al., Findings of ACL 2024](https://aclanthology.org/2024.findings-acl.931/).
 - [SpeechBrain](https://github.com/speechbrain/speechbrain) and [torchaudio](https://github.com/pytorch/audio) provide the pretrained emotion, speaker, and HuBERT feature models used by Maestro-EVC.
-- [Gaudrain's vocoder](https://github.com/egaudrain/vocoder) ([software citation](https://doi.org/10.5281/zenodo.48120)) and [Hilkhuysen and Macherey, 2014](https://doi.org/10.1121/1.4890642) provide the CI vocoder and PSHC carrier method. `seer/ci.py` retains the upstream attribution and GPL-3.0-or-later notice.
+- [Gaudrain's vocoder](https://github.com/egaudrain/vocoder) and [Hilkhuysen and Macherey, 2014](https://doi.org/10.1121/1.4890642) provide the CI vocoder and PSHC carrier method. `seer/ci.py` retains the upstream attribution and GPL-3.0-or-later notice.
 - [Neural Contextual Bandits with Deep Representation and Shallow Exploration](https://openreview.net/forum?id=xnYACQquaGV) (Xu et al., ICLR 2022) informs the last-layer uncertainty used for training-pair exploration.
 - [Whisper](https://github.com/openai/whisper) provides the ASR model for WER. See [Radford et al., ICML 2023](https://proceedings.mlr.press/v202/radford23a.html).
 
