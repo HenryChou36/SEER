@@ -1,6 +1,8 @@
 # SEER
 
-Code for **SEER: Source-Conditioned Emotion Enhancement via Retrieval for Cochlear-Implant Speech**.
+Implementation for SEER: Source-Conditioned Emotion Enhancement via Retrieval for Cochlear-Implant Speech.
+
+[Paper](https://arxiv.org/abs/2610.11131) · [PDF](https://arxiv.org/pdf/2610.11131)
 
 SEER learns to select an emotional reference that helps a source utterance remain recognizable after cochlear-implant (CI) simulation. Reference-conditioned emotional voice conversion (EVC) enhances the source toward the selected expression, while the original speech is retained when no reference has positive predicted utility.
 
